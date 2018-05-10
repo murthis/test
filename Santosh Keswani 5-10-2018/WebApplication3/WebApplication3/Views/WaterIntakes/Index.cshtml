@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebApplication3.Models.WaterIntake>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Water Intake</h2>
+
+<script type="text/javascript">
+
+  setInterval(function() {
+    alert("Please drink water");
+}, 1* 60000);
+</script>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.numberOfGlassesConsumed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.targetGlasses)
+        </th>
+        <th>Progress in %</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.numberOfGlassesConsumed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.targetGlasses)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.remainingGlasses)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
