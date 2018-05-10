@@ -1,0 +1,48 @@
+﻿@model List<Assignments.Models.AddressBookModels>
+
+@{
+    ViewBag.Title = "Address Book";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>AddressBookModels</h4>
+    <hr />
+    
+    <dl class="dl-horizontal">
+        @{
+            foreach (var items in Model.ToList())
+            {
+        <dt>
+            Address
+        </dt>
+
+        <dd>
+            @items.Address
+        </dd>
+
+        <dt>
+            Person Name
+        </dt>
+
+        <dd>
+            @items.PersonName
+        </dd>
+
+        <dt>
+            CityID
+        </dt>
+
+        <dd>
+            @items.CityName
+        </dd>
+        <dd>
+            @Html.ActionLink("Edit", "Edit", new {  id = items.AddressID }) |
+            @Html.ActionLink("Back to List", "Index")
+        </dd>
+
+            }
+        }
+    </dl>
+</div>
