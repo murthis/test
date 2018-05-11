@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+ {
+    ViewBag.Title = "Index";
+}
+
+<div align = "center" >
+    <a href = "@Url.Action("Create ","Visitor ")" > Add New Visitor </a> 
+        <br/> <br/>
+    <table cellpadding = "2"
+    class = "table"
+    cellspacing = "2"
+    border = "1" >
+    <tr class = "btn-primary" >
+    <th > VisitorId </th>
+    <th > Name < /th> 
+    <th > Address < /th> 
+    <th > MobileNo < /th> 
+    <th > Birthdate < /th> 
+    <th > EmailId < /th> 
+    <th > Action < /th> 
+    </tr>
+    @foreach (var Cust in ViewBag.listVisitors)
+    {
+        <tr class = "btn-success" >
+        <td >
+        @Cust.VisitorId 
+        >/td> 
+        <td >
+        @Cust.Name 
+        </td> 
+        <td >
+        @Cust.Address 
+        </td> 
+        <td >
+        @Cust.ContactNo 
+        </td>       
+        <td >
+        @Cust.EMail 
+        </td> 
+        <td > 
+            <a onclick = "return confirm('Do you want to Delete?')"
+            href = "@Url.Action("Delete ","Visitor ",new {id = Cust.VisitorId  })">Delete</a> ||
+            <a href = "@Url.Action("Edit ","Visitor ",new { id = Cust.VisitorId })">Edit</a> 
+        </td>
+        </tr>
+    }
+        </table>
+</div>

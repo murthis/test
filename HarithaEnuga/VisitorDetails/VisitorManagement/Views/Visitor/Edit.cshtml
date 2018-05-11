@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+@model VisitorDetails.Models.VisitorViewmodel 
+<h2>Edit</h2>
+
+<div align = "center" width = "500px" >
+@using (Html.BeginForm("Edit", "Visitor", FormMethod.Post))
+{ 
+    <table class = "table"  cellpadding = "20" >
+    <tr class = "btn-default" >
+    <td >
+    @Html.LabelFor(model => model.visitor.Name) 
+    </td>
+    <td >
+    @Html.TextBoxFor(model => model.visitor.Name) </td> 
+    </tr>
+     <tr >
+    <td >
+    @Html.LabelFor(model => model.visitor.Address) </td>
+
+    <td >
+    @Html.TextBoxFor(model => model.visitor.Address) </td>          
+    </tr> 
+    <tr >
+    <td >
+    @Html.LabelFor(model => model.visitor.ContactNo) 
+    </td>
+    <td >
+    @Html.TextBoxFor(model => model.visitor.ContactNo)
+    </td> 
+    </tr>     
+     <tr >
+    <td >
+    @Html.LabelFor(model => model.visitor.EMail) </td>
+    <td >
+    @Html.TextBoxFor(model => model.visitor.EMail) </td> 
+    </tr> 
+    <tr >
+    <td > </td>
+    <td >
+    <input type = "submit" value = "Save" /> 
+        <a class = "btn-primary" href = "@Url.Action("Index ","visitor ")" > Back < /a>
+        @Html.HiddenFor(model => model.visitor.VisitorId) 
+        </td> 
+    </tr> 
+    </table>
+    } <
+    /div>  
