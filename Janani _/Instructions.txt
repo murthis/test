@@ -1,0 +1,4 @@
+1.Code is Fetching value from DB
+2.But While Binding the value to view its getting hidden
+3.If the type Hidden is removed from the browser it shows the value
+4.It saves record in db and fetches value but there is a problem of rendering the value in view alone as its getting hidden somewhere

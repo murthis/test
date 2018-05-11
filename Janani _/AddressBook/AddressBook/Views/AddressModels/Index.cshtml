@@ -1,0 +1,28 @@
+﻿@model IEnumerable<AddressBook.Models.AddressModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <ul><li>@item.AddressLine</li></ul>
+            @Html.ActionLink("Edit", "Edit", new { AddressLine = item.AddressLine }) |
+            @Html.ActionLink("Details", "Details", new { AddressLine = item.AddressLine }) |
+            @Html.ActionLink("Delete", "Delete", new { AddressLine = item.AddressLine })
+        </td>
+    </tr>
+}
+
+</table>
