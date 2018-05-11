@@ -1,0 +1,30 @@
+﻿@using System.Collections.Generic;
+@using System.Linq;
+@using System.Collections;
+@model System.Collections.Generic.IEnumerable<AddressBookManagementSystem.Models.AddressBookModel>
+
+
+<h2>Welcome to address book system</h2>
+
+@if (Model != null)
+{
+    <div id="addresses">    
+        @foreach (var address in Model)
+        {
+            <div id="address">
+                <p>Name : @address.Name</p>
+                <p>StreetNumber : @address.StreetNumber</p>
+                <p>StreetNameme : @address.StreetName</p>
+                <p>City : @address.City</p>
+                <p>District : @address.District</p>
+                <p>State - Postcode : @address.State - @address.Postcode</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h3>No address found. Please add new one.</h3>
+}
+
+@Html.ActionLink("Add new Address", "AddNewAddress")

@@ -1,0 +1,44 @@
+﻿@model AddressBookManagementSystem.Models.AddressBookModel
+
+@using (Html.BeginForm())
+{
+<div>
+    <span>
+        <label> Name</label>
+        @Html.TextBoxFor(m => m.Name)
+    </span>
+
+    <span>
+        <label> StreetNumber</label>
+        @Html.TextBoxFor(m => m.StreetNumber)
+    </span>
+
+    <span>
+        <label> StreetNameme</label>
+        @Html.TextBoxFor(m => m.StreetName)
+    </span>
+
+    <span>
+        <label> City</label>
+        @Html.TextBoxFor(m => m.City)
+    </span>
+
+    <span>
+        <label> District</label>
+        @Html.TextBoxFor(m => m.District)
+    </span>
+
+    <span>
+        <label> State</label>
+        @Html.TextBoxFor(m => m.State)
+    </span>
+
+    <span>
+        <label> Postcode</label>
+        @Html.TextBoxFor(m => m.Postcode)
+    </span>
+</div>
+
+<input type="submit" value="Submit" />
+}
+
