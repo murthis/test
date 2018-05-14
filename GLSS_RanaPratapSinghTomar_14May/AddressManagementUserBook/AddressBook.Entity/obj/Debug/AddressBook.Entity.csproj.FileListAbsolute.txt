@@ -1,0 +1,4 @@
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Entity\bin\Debug\AddressBook.Entity.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Entity\bin\Debug\AddressBook.Entity.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Entity\obj\Debug\AddressBook.Entity.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Entity\obj\Debug\AddressBook.Entity.pdb

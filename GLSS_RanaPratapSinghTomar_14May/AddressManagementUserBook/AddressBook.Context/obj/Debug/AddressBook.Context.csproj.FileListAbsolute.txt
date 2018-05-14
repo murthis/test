@@ -1,0 +1,16 @@
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.Context.dll.config
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.Context.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.Context.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.DataAccess.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.Entity.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\EntityFramework.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.DataAccess.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\AddressBook.Entity.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\EntityFramework.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\obj\Debug\AddressBook.Context.csprojResolveAssemblyReference.cache
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\obj\Debug\AddressBook.Context.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\obj\Debug\AddressBook.Context.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\obj\Debug\AddressBook.Context.Migrations.Initial.resources
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.Context\obj\Debug\AddressBook.Context.csproj.GenerateResource.Cache

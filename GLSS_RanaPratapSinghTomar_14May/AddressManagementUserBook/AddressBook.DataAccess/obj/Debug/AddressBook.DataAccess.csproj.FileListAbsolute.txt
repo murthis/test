@@ -1,0 +1,9 @@
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\bin\Debug\AddressBook.DataAccess.dll.config
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\bin\Debug\AddressBook.DataAccess.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\bin\Debug\AddressBook.DataAccess.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\bin\Debug\EntityFramework.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\bin\Debug\System.Data.Entity.Repository.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\bin\Debug\EntityFramework.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\obj\Debug\AddressBook.DataAccess.csprojResolveAssemblyReference.cache
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\obj\Debug\AddressBook.DataAccess.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AddressManagementUserBook\AddressBook.DataAccess\obj\Debug\AddressBook.DataAccess.pdb
