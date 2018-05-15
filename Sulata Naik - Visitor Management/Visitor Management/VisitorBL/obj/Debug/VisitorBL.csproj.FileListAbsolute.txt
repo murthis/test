@@ -1,0 +1,9 @@
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\obj\Debug\VisitorBL.csprojResolveAssemblyReference.cache
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\bin\Debug\VisitorBL.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\bin\Debug\VisitorBL.pdb
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\bin\Debug\EntityFramework.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\bin\Debug\VisitorDAL.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\bin\Debug\VisitorDAL.pdb
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\bin\Debug\EntityFramework.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\obj\Debug\VisitorBL.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\Sulata Naik - Visitor Management\Visitor Management\VisitorBL\obj\Debug\VisitorBL.pdb

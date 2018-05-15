@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor Management", "Visitor Management\Visitor Management.csproj", "{4189987F-25B5-4516-A100-A2D8DD103556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorDAL", "VisitorDAL\VisitorDAL.csproj", "{3866455E-D9EE-4623-A3A8-1F2F17D1A44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorBL", "VisitorBL\VisitorBL.csproj", "{779C1BD2-68FF-4FC1-BA92-98B3FCE9D10E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4189987F-25B5-4516-A100-A2D8DD103556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4189987F-25B5-4516-A100-A2D8DD103556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4189987F-25B5-4516-A100-A2D8DD103556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4189987F-25B5-4516-A100-A2D8DD103556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3866455E-D9EE-4623-A3A8-1F2F17D1A44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3866455E-D9EE-4623-A3A8-1F2F17D1A44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3866455E-D9EE-4623-A3A8-1F2F17D1A44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3866455E-D9EE-4623-A3A8-1F2F17D1A44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779C1BD2-68FF-4FC1-BA92-98B3FCE9D10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779C1BD2-68FF-4FC1-BA92-98B3FCE9D10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779C1BD2-68FF-4FC1-BA92-98B3FCE9D10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779C1BD2-68FF-4FC1-BA92-98B3FCE9D10E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
