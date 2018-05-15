@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp", "NotesApp\NotesApp.csproj", "{3C11FB38-9C71-42E1-AA50-F8F196E3FDDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorManagement", "VisitorManagement\VisitorManagement.csproj", "{39FBBCE0-FF7D-40B7-8D2A-C79434DFBE7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C11FB38-9C71-42E1-AA50-F8F196E3FDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C11FB38-9C71-42E1-AA50-F8F196E3FDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C11FB38-9C71-42E1-AA50-F8F196E3FDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C11FB38-9C71-42E1-AA50-F8F196E3FDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FBBCE0-FF7D-40B7-8D2A-C79434DFBE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FBBCE0-FF7D-40B7-8D2A-C79434DFBE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FBBCE0-FF7D-40B7-8D2A-C79434DFBE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FBBCE0-FF7D-40B7-8D2A-C79434DFBE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
